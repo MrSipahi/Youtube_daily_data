@@ -8,11 +8,6 @@ This code obtains daily data by comparing the daily statistics data of the video
 
 # How does it work
 
-  
-To use the Youtube Data API service, you need to get an API_Key. You can get it from the address below.
-
- - [Console Cloud Google](https://console.cloud.google.com/)
-
 
 For this code to work, there must be a table named 'data' in the database. It takes statistical data from this table.
 
