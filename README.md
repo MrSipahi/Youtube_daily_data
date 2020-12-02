@@ -2,19 +2,18 @@
 
   
 
-This code obtains daily data by comparing the daily statistics data of the videos. After obtaining the data, it adds the data to the table named 'gunluk'.
+This program, compare daily static datas and take result for the daily data. Than program will add in the named table 'gunluk'
 
 ![enter image description here](https://github.com/MrSipahi/Youtube_daily_data/blob/main/photo/daily.PNG?raw=true)
 
 # How does it work
 
-
-For this code to work, there must be a table named 'data' in the database. It takes statistical data from this table.
+If you will use this program, there must be a table named 'data' because this program must take statistics data so, you must add 'data'
 
 ![enter image description here](https://github.com/MrSipahi/Youtube_daily_data/blob/main/photo/data.PNG?raw=true)
 
   
-The code compares the day it was found and the previous day.
+This program compore today and yesterday.
 
     locale.setlocale(locale.LC_ALL,  "")
     moment = datetime.now()    
